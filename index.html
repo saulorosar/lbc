@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      /* CSS HEX */
-      --zombie: #e4d79b;
-      --cobalt: #0444b4;
-      --lochmara: #0474bb;
-      --log-cabin: #191e15;
-      --fiord: #385469;
-      --yukon-gold: #846c04;
-      --danube: #6c94d4;
-      --bahama-blue: #045a9a;
-      --cerulean-blue: #245cbc;
-      h1 {
-        color: var(--cobalt);
-        text-align: center;
-      }
-      h2 {
-        color: var(--lochmara);
-        text-align: center;
-      }
-      .rankings {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-      }
-      .rankings div {
-        width: 20%;
-        text-align: center;
-        padding: 20px;
-        color: var(--log-cabin);
-        background-color: var(--fiord);
-      }
-      .rankings h3 {
-        color: var(--yukon-gold);
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Liga Balneário Camboriú de Poker</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Liga Balneário Camboriú de Poker</title>
+  <style>
+    .header {
+      background-color: #0444b4;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .ranking-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+
+    .ranking-box {
+      background-color: #e4d79b;
+      color: #191e15;
+      width: 30%;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .ranking-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 class="title">Liga Balneário Camboriú de Poker</h1>
     <h2>500k GARANTIDOS</h2>
-    <div class="rankings">
-      <div>
-        <h3>Ranking 300k</h3>
-      </div>
-      <div>
-        <h3>Ranking 100k</h3>
-      </div>
-      <div>
-        <h3>Ranking 50k</h3>
-      </div>
-      <div>
-        <h3>Ranking 25k</h3>
-      </div>
-      <div>
-        <h3>Ranking 25k</h3>
-      </div>
+  </div>
+
+  <div class="ranking-container">
+    <div class="ranking-box">
+      <h3 class="ranking-title">Ranking 300k</h3>
+      <!-- Adicione aqui o conteúdo do ranking 300k -->
     </div>
-  </body>
+    <div class="ranking-box">
+      <h3 class="ranking-title">Ranking 100k</h3>
+      <!-- Adicione aqui o conteúdo do ranking 100k -->
+    </div>
+    <div class="ranking-box">
+      <h3 class="ranking-title">Ranking 50k</h3>
+      <!-- Adicione aqui o conteúdo do ranking 50k -->
+    </div>
+    <div class="ranking-box">
+      <h3 class="ranking-title">Ranking 25k</h3>
+      <!-- Adicione aqui o conteúdo do ranking 25k -->
+    </div>
+    <div class="ranking-box">
+      <h3 class="ranking-title">Ranking 25k</h3>
+      <!-- Adicione aqui o conteúdo do ranking 25k -->
+    </div>
+  </div>
+</body>
 </html>
+
