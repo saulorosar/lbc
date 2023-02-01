@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Liga Balneário Camboriú de Poker</title>
-
     <style>
+      /* CSS HEX */
       --zombie: #e4d79b;
       --cobalt: #0444b4;
       --lochmara: #0474bb;
@@ -14,72 +12,50 @@
       --danube: #6c94d4;
       --bahama-blue: #045a9a;
       --cerulean-blue: #245cbc;
-      
-      .container {
-        max-width: 1000px;
-        margin: 0 auto;
+      h1 {
+        color: var(--cobalt);
         text-align: center;
       }
-
-      h1 {
-        font-size: 3em;
-        color: var(--cobalt);
-        margin-bottom: 50px;
+      h2 {
+        color: var(--lochmara);
+        text-align: center;
       }
-
-      .ranking {
-        margin-bottom: 50px;
+      .rankings {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .rankings div {
+        width: 20%;
+        text-align: center;
+        padding: 20px;
         color: var(--log-cabin);
+        background-color: var(--fiord);
       }
-
-      .ranking h2 {
-        font-size: 2em;
-        margin-bottom: 20px;
-      }
-
-      .ranking p {
-        font-size: 1.5em;
+      .rankings h3 {
+        color: var(--yukon-gold);
       }
     </style>
   </head>
-
   <body>
-    <div class="container">
-      <h1>500k GARANTIDOS</h1>
-
-      <div class="ranking">
-        <h2>Ranking 300k</h2>
-        <p>Jogador 1</p>
-        <p>Jogador 2</p>
-        <p>Jogador 3</p>
+    <h1>Liga Balneário Camboriú de Poker</h1>
+    <h2>500k GARANTIDOS</h2>
+    <div class="rankings">
+      <div>
+        <h3>Ranking 300k</h3>
       </div>
-
-      <div class="ranking">
-        <h2>Ranking 100k</h2>
-        <p>Jogador 4</p>
-        <p>Jogador 5</p>
-        <p>Jogador 6</p>
+      <div>
+        <h3>Ranking 100k</h3>
       </div>
-
-      <div class="ranking">
-        <h2>Ranking 50k</h2>
-        <p>Jogador 7</p>
-        <p>Jogador 8</p>
-        <p>Jogador 9</p>
+      <div>
+        <h3>Ranking 50k</h3>
       </div>
-
-      <div class="ranking">
-        <h2>Ranking 25k</h2>
-        <p>Jogador 10</p>
-        <p>Jogador 11</p>
-        <p>Jogador 12</p>
+      <div>
+        <h3>Ranking 25k</h3>
       </div>
-
-      <div class="ranking">
-        <h2>Ranking 25k</h2>
-        <p>Jogador 13</p>
-        <p>Jogador 14</p>
-        <p>Jogador 15</p>
+      <div>
+        <h3>Ranking 25k</h3>
       </div>
     </div>
   </body>
